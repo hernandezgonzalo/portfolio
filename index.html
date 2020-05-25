@@ -18,9 +18,8 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap"
       rel="stylesheet"
-      type="text/css"
     />
 
     <!-- FontAwesome JS -->
@@ -57,7 +56,16 @@
           alt="profile image"
         />
         <div class="profile-content float-left">
-          <h1 class="name">Gonzalo Hernández</h1>
+          <!-- <h1 class="name">Gonzalo Hernández</h1> -->
+          <h1 class="name">
+            <span
+              class="typewrite"
+              data-period="2000"
+              data-type='[ "Hi! I am Gonzalo.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'
+            >
+              <span class="wrap"></span>
+            </span>
+          </h1>
           <h2 class="desc">
             Full Stack Developer | JavaScript, Node.js, Express, MongoDB, React
           </h2>
@@ -219,7 +227,7 @@
                     </h3>
                     <p class="mb-2">
                       Reviews platform with user-generated content developed
-                      with Node.js, Express, MongoDB and AJAX.
+                      with Node.js, Express, MongoDB, AJAX and Handlebars.
                     </p>
                     <p>
                       <a
@@ -626,6 +634,8 @@
       type="text/javascript"
       src="assets/plugins/github-calendar/dist/github-calendar.min.js"
     ></script>
+    <!-- typewriter -->
+    <script type="text/javascript" src="assets/js/typewriter.js"></script>
     <!-- custom js -->
     <script type="text/javascript" src="assets/js/main.js"></script>
   </body>
