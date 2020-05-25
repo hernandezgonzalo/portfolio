@@ -152,7 +152,7 @@ a.dotted-link {
 /* ======= Sections======= */
 .sections-wrapper {
   padding-top: 60px;
-  padding-bottom: 60px;
+  // padding-bottom: 60px;
 }
 .section {
   margin-bottom: 30px;
@@ -206,6 +206,10 @@ a.dotted-link {
       &:hover {
         @include opacity(0.8);
       }
+    }
+
+    .more-link {
+      margin-right: 10px;
     }
   }
   .divider {
@@ -558,11 +562,11 @@ a.dotted-link {
 /* ======= Footer ======= */
 
 .footer {
-  background: darken($color, 30%);
-  color: #fff;
+  // background: darken($color, 30%);
+  // color: #fff;
   padding: 10px 0;
 
-  .copyright {
+  .text {
     line-height: 1.6;
     color: lighten($color, 15%);
     font-size: 14px;

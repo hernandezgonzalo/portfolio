@@ -174,7 +174,6 @@ a.dotted-link:hover {
 /* ======= Sections======= */
 .sections-wrapper {
   padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .section {
@@ -220,6 +219,9 @@ a.dotted-link:hover {
   -webkit-opacity: 0.8;
   -moz-opacity: 0.8;
   opacity: 0.8;
+}
+.latest .item .more-link {
+  margin-right: 10px;
 }
 .latest .divider {
   margin-bottom: 60px;
@@ -548,11 +550,9 @@ a.dotted-link:hover {
 
 /* ======= Footer ======= */
 .footer {
-  background: #32383e;
-  color: #fff;
   padding: 10px 0;
 }
-.footer .copyright {
+.footer .text {
   line-height: 1.6;
   color: #a1aab4;
   font-size: 14px;
